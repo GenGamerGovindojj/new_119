@@ -1,0 +1,45 @@
+body{
+    background-color: yellowgreen;
+}
+#my_score{
+    font-size: 30px;
+    float: right;
+}
+
+#my_timer{
+    font-size: 30px;
+    float: left;
+}
+
+#label{
+    font-size: 20px;
+    
+}
+
+#confidence{
+    font-size: 20px;
+}
+
+#to_draw{
+    font-size: 20px;
+}
+
+canvas 
+  {
+    border:5px solid rgb(53, 143, 240);
+    border-radius:20px;
+    margin-top:150px;
+    box-shadow:5px 5px 5px grey;
+    box-shadow: 1px 1px 38px #ffffff;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+p, span
+  {
+    padding-top:10px;
+    font-family: 'Special Elite', fantasy;
+    font-size:25px;
+    
+  }
